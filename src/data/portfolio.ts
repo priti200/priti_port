@@ -24,8 +24,8 @@ export const PORTFOLIO_DATA = {
     experience: [
         {
             company: "Capovex / Arth by Capovex",
-            role: "Frontend / Product Engineer (Community & Projects)",
-            period: "2024 - Present",
+            role: "Frontend Development Intern",
+            period: "Mar 2025 - Sep 2025",
             description:
                 "Contributing to web experiences focused on finance and analytics. Working with React-based frontends and collaborating on clean API integration, performance, and UI polish within product teams.",
         },
@@ -48,7 +48,7 @@ export const PORTFOLIO_DATA = {
             icon: "BookOpen",
         },
         {
-            title: "Joined amFOSS",
+            title: "Open Source Contributor",
             company: "amFOSS",
             year: "2022 - 2023",
             description:
@@ -56,19 +56,19 @@ export const PORTFOLIO_DATA = {
             icon: "Code",
         },
         {
-            title: "Full-Stack & Mobile Focus",
-            company: "Personal & Academic Projects",
-            year: "2023 - 2024",
+            title: "UI/UX Intern",
+            company: "Themarketable.in",
+            year: "Dec 2024 - Feb 2025",
             description:
-                "Built full-stack applications with Django, React, and Flutter, focusing on real-world flows like telemedicine and smart farming.",
+                "Designed user-centric interfaces and prototypes, focusing on product reliability and meaningful UX.",
             icon: "PenTool",
         },
         {
-            title: "AI-Assisted Products",
-            company: "Personal Projects",
-            year: "2024 - Present",
+            title: "Frontend Development Intern",
+            company: "Capovex",
+            year: "Mar 2025 - Sep 2025",
             description:
-                "Exploring NLP, LLM pipelines, and document understanding tools, and integrating them into user-facing products.",
+                "Building scalable frontline applications using Next.js and React ecosystem with a focus on web performance.",
             icon: "Laptop",
         },
     ],
