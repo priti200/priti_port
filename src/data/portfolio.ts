@@ -124,9 +124,9 @@ export const PORTFOLIO_DATA = {
             },
         },
         {
-            title: "Emotion Recognition",
-            description: "Automated subjective emotional analysis pipeline. Implemented spectral feature extraction (MFCCs) and trained a CNN architecture achieving 88% classification accuracy on the SAVEE dataset.",
-            tech: ["Python", "TensorFlow", "Signal Processing"],
+            title: "Speech Emotion Recognition System",
+            description: "Developed a system to classify emotional states (happy, sad, angry, neutral) from audio signals using MFCC and spectral feature extraction. Evaluated SVM, Random Forest, and KNN classifiers across multiple datasets (RAVDESS, CREMA-D, SAVEE, EMO-DB) to analyze generalization and feature robustness.",
+            tech: ["Python", "Scikit-learn", "Librosa", "SVM", "Random Forest"],
             links: {
                 code: "https://github.com/anudeep2710/EmotionClassifier",
             },
