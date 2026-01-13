@@ -1,4 +1,5 @@
 "use client";
+// forcing redeploy for contact info update
 
 import { motion } from "framer-motion";
 import { ArrowLeft, Mail, Phone, Send, MapPin, Github, Linkedin, Twitter } from "lucide-react";
