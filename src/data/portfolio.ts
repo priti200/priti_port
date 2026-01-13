@@ -1,100 +1,129 @@
+
 export const PORTFOLIO_DATA = {
     personal: {
         name: "Priti Gupta",
-        role: "Full Stack Engineer & AI Researcher",
-        headline: "Engineering high-throughput distributed systems & optimizing transformer inference pipelines.",
-        bio: "Engineer and Researcher specialized in bridging the gap between scalable web architectures and production ML models. Background in reducing inference latency for NLP tasks and architecting event-driven frontend systems. Proven track record of deploying research-grade AI into performant user-facing applications.",
-        location: "India",
-        email: "pritigupta2026@outlook.com",
-        phone: "+91-7068899164",
+        role: "Software Engineer | Full-Stack & AI-driven Applications",
+        headline:
+            "Building scalable web & mobile products powered by clean backend architecture and practical ML.",
+        bio: "Software Engineer focused on end-to-end product development across web and mobile. Experience spans React, Django, Flutter, and databases, with growing work in NLP and AI-assisted workflows. Comfortable owning features from idea and wireframes to deployment and iteration.",
+        location: "Kerala, India",
+        email: "geekpritigupta@gmail.com",
+        phone: "+91-7356726056",
         github: "https://github.com/priti200",
         linkedin: "https://linkedin.com/in/priti-gupta-554637255",
     },
+
     skills: {
-        frontend: ["React", "TypeScript", "Next.js (SSR/ISR)", "Tailwind CSS", "Redux Toolkit"],
-        backend: ["Java", "Spring Boot", "Node.js", "PostgreSQL (Complex Queries)", "Redis", "System Design"],
-        ai_ml: ["Python", "PyTorch", "HuggingFace Transformers", "FastAPI", "Docker", "ONNX Runtime"],
-        cloud: ["Google Cloud Platform", "AWS", "CI/CD Pipelines"],
+        frontend: ["React", "Flutter", "HTML", "CSS", "Bootstrap"],
+        backend: ["Django", "REST APIs", "Firebase", "Node.js (basic)", "System Design (fundamentals)"],
+        ai_ml: ["Python", "NLP (LLM pipelines)", "Embeddings & Vector Search (basic)", "Data Processing"],
+        databases: ["PostgreSQL", "MySQL", "Firebase Realtime DB"],
+        core: ["C++ (DSA)", "Git & GitHub", "Linux", "Figma"],
     },
+
     experience: [
         {
-            company: "Capovex Research and Analytics",
-            role: "Frontend Engineer",
+            company: "Capovex / Arth by Capovex",
+            role: "Frontend / Product Engineer (Community & Projects)",
             period: "2024 - Present",
-            description: "Architected the frontend layer for high-volume data visualization dashboards. Implemented aggressive memoization and tree-shaking strategies, reducing First Contentful Paint (FCP) by 40% (1.2s to 0.7s). Reduced technical debt by migrating legacy codebase to rigid TypeScript strict-mode standards.",
+            description:
+                "Contributing to web experiences focused on finance and analytics. Working with React-based frontends and collaborating on clean API integration, performance, and UI polish within product teams.",
         },
         {
-            company: "Themarketable.in",
-            role: "Product Engineer",
-            period: "2023 - 2024",
-            description: "Led the product engineering lifecycle from wireframe to deployment. Translated complex user flows into responsive, component-driven interfaces using React, resulting in a 15% increase in user session duration.",
+            company: "amFOSS",
+            role: "Open Source Contributor",
+            period: "2022 - 2023",
+            description:
+                "Completed multiple onboarding tasks and contributed to team projects. Learned Git-based workflows, code reviews, and collaborative development while building real features and debugging in production-like setups.",
         },
     ],
+
     journey: [
         {
-            title: "Started B.Tech (CS)",
+            title: "Started B.Tech (CSE)",
             company: "Amrita Vishwa Vidyapeetham",
             year: "2022",
-            description: "Focusing on Distributed Systems and Machine Learning Algorithms.",
-            icon: "BookOpen"
+            description:
+                "Began formal CS journey with a focus on Data Structures, Algorithms, and core computer science fundamentals.",
+            icon: "BookOpen",
         },
         {
-            title: "Open Source Contributor",
-            company: "AmFOSS",
+            title: "Joined amFOSS",
+            company: "amFOSS",
             year: "2022 - 2023",
-            description: "Contributed to core distributed systems libraries. Learned collaborative development at scale using Git flow.",
-            icon: "Code"
+            description:
+                "Solved structured tasks, explored open source, and learned how to ship features in a collaborative environment.",
+            icon: "Code",
         },
         {
-            title: "Product Engineer",
-            company: "Themarketable.in",
+            title: "Full-Stack & Mobile Focus",
+            company: "Personal & Academic Projects",
             year: "2023 - 2024",
-            description: "Designed user-centric interfaces and prototypes, focusing on product reliability and meaningful UX.",
-            icon: "PenTool"
+            description:
+                "Built full-stack applications with Django, React, and Flutter, focusing on real-world flows like telemedicine and smart farming.",
+            icon: "PenTool",
         },
         {
-            title: "Frontend Engineer",
-            company: "Capovex",
+            title: "AI-Assisted Products",
+            company: "Personal Projects",
             year: "2024 - Present",
-            description: "Building scalable frontline applications using Next.js and React ecosystem with a focus on web performance.",
-            icon: "Laptop"
-        }
+            description:
+                "Exploring NLP, LLM pipelines, and document understanding tools, and integrating them into user-facing products.",
+            icon: "Laptop",
+        },
     ],
+
     projects: [
         {
-            title: "HealthConnect",
-            description: "HIPAA-compliant telemedicine infrastructure. Built a custom WebRTC signaling server on Spring Boot for low-latency (<200ms) video streaming. Integrated OAuth2 for secure patient RBAC and implemented AES-256 encryption for data at rest.",
-            tech: ["React", "Spring Boot", "WebRTC", "OAuth2"],
+            title: "Smart Agriculture Mobile Application",
+            description:
+                "End-to-end mobile solution for farmers to manage crops and access guidance. Built with a scalable Flutter architecture and Firebase backend, enabling real-time data sync, authentication, and extensible modules for future ML/IoT integrations.",
+            tech: ["Flutter", "Firebase", "REST APIs"],
             links: {
-                code: "https://github.com/priti200/HealthConnect",
-                demo: "https://healthconnect-frontend-dwa76nbkfq-uc.a.run.app",
+                code: "https://github.com/priti200/amfoss_tasks",
+                demo: "",
             },
         },
         {
-            title: "CrossEmbedUID",
-            description: "Novel user identification framework leveraging cross-modal embeddings. Fine-tuned BERT-based models on heterogeneous social graphs, achieving 87% Top-1 accuracy in profile linkage tasks. Optimized inference throughput using quantized models served via FastAPI.",
-            tech: ["Python", "BERT", "FastAPI", "Vector DB"],
+            title: "HealthConnect – Telemedicine Platform",
+            description:
+                "Full-stack telemedicine application enabling secure patient–doctor communication. Implemented user authentication, appointment scheduling, and role-based access control with a focus on clean REST API design and relational data modelling.",
+            tech: ["React", "Django", "PostgreSQL", "REST APIs"],
             links: {
-                code: "https://github.com/priti200/cross-embed-UID",
-                demo: "https://github.com/priti200/cross-embed-UID",
+                code: "https://github.com/priti200/django_girls-",
+                demo: "",
             },
         },
         {
-            title: "HopeLens",
-            description: "Suicide risk detection pipeline. Engineered an asynchronous prediction API wrapping a fine-tuned Roberta model. Decoupled inference service from the React client using a message queue pattern to handle burst traffic reliable.",
-            tech: ["React", "Spring Boot", "FastAPI", "Celery"],
+            title: "TalkToYourDocument",
+            description:
+                "AI-powered document assistant that lets users query documents conversationally. Implemented text chunking, embedding generation, and retrieval workflows, then wired them into an LLM pipeline to return context-aware answers.",
+            tech: ["Python", "NLP", "Embeddings", "Vector Search"],
             links: {
-                code: "https://github.com/priti200/Hopelens-Analyzing-and-Predicting-Suicide-Attempts",
-                demo: "https://hopelens.onrender.com/",
+                code: "https://github.com/priti200", // replace with exact repo when you split it out
+                demo: "",
             },
         },
         {
-            title: "Emotion Recognition",
-            description: "Automated subjective emotional analysis pipeline. Implemented spectral feature extraction (MFCCs) and trained a CNN architecture achieving 88% classification accuracy on the SAVEE dataset.",
-            tech: ["Python", "TensorFlow", "Signal Processing"],
+            title: "CrossEmbed – Cross-Modal User Linking",
+            description:
+                "Research-grade framework for linking user identities across platforms using cross-modal embeddings. Designed and evaluated a pipeline that combines profile text and interaction signals to compute similarity, targeting robust identity resolution across noisy data.",
+            tech: ["Python", "NLP", "Embeddings", "Experiment Tracking"],
             links: {
-                code: "https://github.com/anudeep2710/EmotionClassifier",
+                code: "https://github.com/priti200", // update to specific CrossEmbed repo when public
+                demo: "",
             },
-        }
+        },
+    ],
+
+    publications: [
+        {
+            title: "CrossEmbed: Cross-Modal Embedding Framework for User Identity Linking",
+            venue: "Project report / in-progress manuscript",
+            year: "2025",
+            description:
+                "Proposed and implemented CrossEmbed, a cross-modal representation learning approach for user identity linkage across heterogeneous platforms, with empirical evaluation on real-world-style data.",
+            link: "https://github.com/priti200", // or arXiv/CEUR/drive link when available
+        },
     ],
 };
