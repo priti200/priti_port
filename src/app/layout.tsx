@@ -20,7 +20,7 @@ const jsonLd = {
     knowsAbout: ["Full Stack Development", "Machine Learning", "AI Systems", "React", "Next.js", "Python"],
     sameAs: [
         "https://github.com/priti200",
-        "https://linkedin.com/in/priti-gupta", // Replace with actual LinkedIn
+        "https://linkedin.com/in/priti-gupta-554637255",
     ],
     description: "Full-Stack Engineer building intelligent products with engineering precision."
 };
