@@ -114,6 +114,23 @@ export const PORTFOLIO_DATA = {
                 demo: "",
             },
         },
+        {
+            title: "HopeLens",
+            description: "Suicide risk detection pipeline. Engineered an asynchronous prediction API wrapping a fine-tuned Roberta model. Decoupled inference service from the React client using a message queue pattern to handle burst traffic reliable.",
+            tech: ["React", "Spring Boot", "FastAPI", "Celery"],
+            links: {
+                code: "https://github.com/priti200/Hopelens-Analyzing-and-Predicting-Suicide-Attempts",
+                demo: "https://hopelens.onrender.com/",
+            },
+        },
+        {
+            title: "Emotion Recognition",
+            description: "Automated subjective emotional analysis pipeline. Implemented spectral feature extraction (MFCCs) and trained a CNN architecture achieving 88% classification accuracy on the SAVEE dataset.",
+            tech: ["Python", "TensorFlow", "Signal Processing"],
+            links: {
+                code: "https://github.com/anudeep2710/EmotionClassifier",
+            },
+        }
     ],
 
     publications: [
