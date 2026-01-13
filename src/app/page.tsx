@@ -190,11 +190,11 @@ export default function Home() {
                                     My professional path in building software. Always learning, always shipping.
                                 </p>
                                 <a
-                                    href="/resume.pdf"
+                                    href="/resume.html"
                                     target="_blank"
                                     className="inline-flex items-center gap-2 text-white bg-zinc-900 border border-zinc-800 px-6 py-3 rounded-lg hover:bg-zinc-800 transition-colors font-medium"
                                 >
-                                    <Download size={18} /> Download CV
+                                    <Download size={18} /> View / Download CV
                                 </a>
                             </div>
                         </div>
