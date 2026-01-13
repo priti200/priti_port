@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priti Gupta - Resume</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-gray: #f9fafb;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-print-color-adjust: exact;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #e5e7eb;
+            color: var(--text-dark);
+            line-height: 1.5;
+            padding: 40px 0;
+        }
+
+        .page {
+            background: white;
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            padding: 12mm 15mm;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        header {
+            border-bottom: 2px solid #f3f4f6;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .header-left h1 {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: #111827;
+            text-transform: uppercase;
+        }
+
+        .header-left h2 {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-top: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        .header-right {
+            text-align: right;
+            font-size: 12px;
+            color: var(--text-dark);
+        }
+
+        .header-right p {
+            margin-bottom: 2px;
+        }
+
+        .header-right a {
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 18px;
+        }
+
+        h3.section-title {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-light);
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 4px;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        /* Content Grid */
+        .entry {
+            margin-bottom: 12px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .entry-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #111827;
+        }
+
+        .entry-subtitle {
+            font-size: 13px;
+            font-weight: 500;
+            color: #374151;
+        }
+
+        .entry-date {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-light);
+        }
+
+        .entry-desc {
+            font-size: 12px;
+            color: #4b5563;
+        }
+
+        ul.job-details {
+            list-style-type: none;
+            margin-top: 4px;
+        }
+
+        ul.job-details li {
+            position: relative;
+            padding-left: 12px;
+            font-size: 12px;
+            color: #4b5563;
+            margin-bottom: 2px;
+        }
+
+        ul.job-details li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--text-light);
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 20px;
+        }
+
+        .skill-category {
+            font-size: 12px;
+        }
+
+        .skill-label {
+            font-weight: 700;
+            color: #374151;
+            margin-right: 6px;
+        }
+
+        .skill-list {
+            color: #4b5563;
+        }
+
+        /* Projects Compact */
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        
+        .project-item {
+            margin-bottom: 0;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .page {
+                box-shadow: none;
+                margin: 0;
+                width: auto;
+                min-height: auto;
+                padding: 0;
+            }
+            /* Hide URL printing */
+            a[href]:after {
+                content: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- Header -->
+        <header>
+            <div class="header-left">
+                <h1>Priti Gupta</h1>
+                <h2>Software Engineer | Full-Stack & AI Systems</h2>
+            </div>
+            <div class="header-right">
+                <p>geekpritigupta@gmail.com</p>
+                <p>+91-73567-26056</p>
+                <p>Kerala, India</p>
+                <p>github.com/priti200 | linkedin.com/in/priti-gupta</p>
+            </div>
+        </header>
+
+        <!-- Education -->
+        <section>
+            <h3 class="section-title">Education</h3>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Amrita Vishwa Vidyapeetham</span>
+                    <span class="entry-date">2022 - Present</span>
+                </div>
+                <div class="entry-subtitle">B.Tech in Computer Science and Engineering</div>
+                <div class="entry-desc" style="margin-top: 2px;">Focus: Distributed Systems, Machine Learning Algorithms, Data Structures</div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h3 class="section-title">Experience</h3>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Frontend Development Intern</span>
+                    <span class="entry-date">Mar 2025 - Sep 2025</span>
+                </div>
+                <div class="entry-subtitle">Capovex</div>
+                <ul class="job-details">
+                    <li>Contributed to high-volume finance and analytics dashboards using Next.js and React.</li>
+                    <li>Collaborated on clean API integration and UI polish, enhancing web performance and maintainability.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">UI/UX Intern</span>
+                    <span class="entry-date">Dec 2024 - Feb 2025</span>
+                </div>
+                <div class="entry-subtitle">Themarketable.in</div>
+                <ul class="job-details">
+                    <li>Designed user-centric interfaces and interactive prototypes to improve product reliability.</li>
+                    <li>Focused on meaningful UX research and wireframing for core product features.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Open Source Contributor</span>
+                    <span class="entry-date">2022 - 2023</span>
+                </div>
+                <div class="entry-subtitle">amFOSS</div>
+                <ul class="job-details">
+                    <li>Participated in collaborative development using Git-based workflows and code reviews.</li>
+                    <li>Built real-world features and debugged issues in distributed systems environments.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h3 class="section-title">Selected Projects</h3>
+            <div class="project-grid">
+                <div class="project-item">
+                    <div class="entry-header">
+                        <span class="entry-title">TalkToYourDocument (RAG Pipeline)</span>
+                    </div>
+                    <div class="entry-desc">
+                        AI-powered assistant for conversational document querying. Built text chunking and embedding workflows wired into an LLM pipeline.
+                        <br><i>Tech: Python, NLP, Embeddings, Vector Search</i>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="entry-header">
+                        <span class="entry-title">CrossEmbed Framework</span>
+                    </div>
+                    <div class="entry-desc">
+                        Research-grade framework for cross-modal user identity linking across platforms. Used profile text and interaction signals for similarity computation.
+                        <br><i>Tech: Python, NLP, Experiment Tracking</i>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="entry-header">
+                        <span class="entry-title">HopeLens (Suicide Risk Detection)</span>
+                    </div>
+                    <div class="entry-desc">
+                        Asynchronous prediction API wrapping a fine-tuned Roberta model. Decoupled inference service using message queues for reliability.
+                        <br><i>Tech: React, Spring Boot, FastAPI, Celery</i>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="entry-header">
+                        <span class="entry-title">Speech Emotion Recognition</span>
+                    </div>
+                    <div class="entry-desc">
+                        Audio classification system (MFCC + SVM/Random Forest) detecting emotions. Evaluated on RAVDESS, CREMA-D, SAVEE datasets for robustness.
+                        <br><i>Tech: Python, Librosa, Scikit-learn</i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h3 class="section-title">Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <span class="skill-label">Languages:</span>
+                    <span class="skill-list">Python, TypeScript, JavaScript, C++, Java, Dart</span>
+                </div>
+                <div class="skill-category">
+                    <span class="skill-label">Frontend:</span>
+                    <span class="skill-list">React, Next.js, Tailwind CSS, Flutter, HTML5/CSS3</span>
+                </div>
+                <div class="skill-category">
+                    <span class="skill-label">Backend:</span>
+                    <span class="skill-list">Django, Node.js, FastAPI, Spring Boot</span>
+                </div>
+                <div class="skill-category">
+                    <span class="skill-label">AI/ML:</span>
+                    <span class="skill-list">PyTorch, Transformers, TensorFlow, Scikit-learn</span>
+                </div>
+                <div class="skill-category">
+                    <span class="skill-label">Databases:</span>
+                    <span class="skill-list">PostgreSQL, MySQL, Firebase, Redis</span>
+                </div>
+                <div class="skill-category">
+                    <span class="skill-label">DevOps/Tools:</span>
+                    <span class="skill-list">Git, Docker, Linux, CI/CD, Figma</span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <script>
+        // Auto-print prompt when opened
+        window.onload = function() {
+            setTimeout(function() {
+                // window.print();
+            }, 500);
+        }
+    </script>
+</body>
+</html>
